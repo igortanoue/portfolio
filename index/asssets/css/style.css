@@ -1,0 +1,130 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0pc; 
+    box-sizing: border-box;
+    color: var(--cor4)
+}
+
+:root {
+    --cor0: #5581D9;
+    --cor1: #5E88BF;
+    --cor2: #D7F205;
+    --cor3: #F2E205;
+    --cor4: #262626;
+
+}
+body { 
+    background-color: var(--cor4);
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1))
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.63);
+    text-align: justify;
+
+}
+#apresentacao {
+    border: 1px black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    padding: 5px;
+}
+
+#apresentacao > img {
+    height: 360px;
+    width: 230px;
+    
+}
+
+#apresentacao > p {
+
+    justify-content: left;
+    color: white;
+}
+
+main > p {
+    color: white;
+    padding: 5px;
+}
+
+main > p > img {
+    height: 560px;
+    width: 400px;
+}
+
+main > h2 { 
+    background-color: var(--cor2);
+    text-align: center;
+    padding: 10px;
+}
+
+main > ul > li {
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-align: justify;
+}
+
+
+h1 {
+    background-color: var(--cor2);
+    text-align: center;
+    padding: 10px;
+}
+
+#proj { 
+    border: 1px black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+#proj > a {
+    background-color: var(--cor3);
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#proj > a:hover {
+    background-color: #e2d73a;
+    color: black;
+    transition: background-color .7s;
+}
+
+#redes { 
+    border: 1px black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+#redes > a {
+    background-color: var(--cor3);
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#redes > a:hover {
+    background-color: #e2d73a;
+    color: black;
+    transition: background-color .7s;
+}
