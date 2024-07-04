@@ -101,7 +101,7 @@ h1 {
 }
 
 #proj > a {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     color: black;
     padding: 10px;
     margin: 5px;
@@ -125,7 +125,7 @@ h1 {
 }
 
 #redes > a {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     color: black;
     padding: 10px;
     margin: 5px;
