@@ -1,0 +1,72 @@
+:root {
+    --cor0: #5581D9;
+    --cor1: #5E88BF;
+    --cor2: #D7F205;
+    --cor3: #F2E205;
+    --cor4: #262626;
+
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: var(--cor4);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+section > div > button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--cor2);
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.iniciar:focus {
+    outline: 1px solid var(--primary-color)
+}
+
+form button {
+    border: none;
+    background-color: var(--cor2);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 120px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background-color: var(--cor2);
+}
+
+form button:active {
+    background-color: var(--cor3);
+}
+
+.relogio {
+    font-size: 5em;
+    padding: 6vh;
+    text-align: center;
+    color: white;
+}
+
+.pausado {
+    color: red;
+}
+
+.voltar {
+    width: 200px;
+    border-radius: 50px;
+}
