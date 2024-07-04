@@ -1,0 +1,73 @@
+.container {
+    max-width: 540px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color)
+}
+
+form button:hover {
+    background-color: var(--secondary-color);
+}
+
+form button:active {
+    background-color: var(--thirt-color);
+}
+
+.calculadora {
+    width: 500px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border:none;
+    background-color: #dfdfdf;
+    cursor:pointer
+
+}
+
+.btn:hover {
+    background: #aaa9a9;
+}
+.btn-eq {
+    background: #D7F205;
+}
+.btn-eq:hover {
+    background: #a0b407;
+}
+
+.voltar {
+    width: 600px;
+    margin: auto;
+    border-radius: 50px;
+}

@@ -3,7 +3,8 @@
     margin: 0px;
     padding: 0pc; 
     box-sizing: border-box;
-    color: var(--cor4)
+    color: var(--cor4);
+    
 }
 
 :root {
@@ -49,11 +50,14 @@ main {
 
     justify-content: left;
     color: white;
+    line-height: 1.5em;
+    padding: 5px;
 }
 
 main > p {
     color: white;
     padding: 5px;
+    line-height: 1.5em;
 }
 
 main > p > img {
@@ -65,20 +69,27 @@ main > h2 {
     background-color: var(--cor2);
     text-align: center;
     padding: 10px;
+    border-radius: 25px;
 }
 
 main > ul > li {
+    padding-top: 10px;
+    line-height: 1.5em;
     padding-left: 5px;
     padding-bottom: 5px;
     color: white;
     text-align: justify;
 }
-
+main > ul > li > a {
+    color: white;
+}
 
 h1 {
     background-color: var(--cor2);
     text-align: center;
     padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
 
 #proj { 
@@ -127,4 +138,16 @@ h1 {
     background-color: #e2d73a;
     color: black;
     transition: background-color .7s;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 8.5px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
 }
